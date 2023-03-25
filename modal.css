@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+}
+body{
+    background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    border: none; outline: none;
+    margin: 20vw 2vw;
+    margin-left: 13vw;
+    padding: 0.3vw 3vw;
+    border-radius: 1.5vw;
+    font-weight: bold;
+    color: black;
+    background: #ffffff5b;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.btn:hover{
+    background: #ffffffce;
+
+}
+
+.overlay{
+    z-index: 0;
+    position: absolute;
+    top: 0vw; left: 0vw;
+    width: 100%; height: 100%;
+    background-image: linear-gradient(to right, #3d341cd8, #fa7d1ed3, #d62977d5, #2c0e38d5, #151838d7);
+}
+.overlay:hover{
+    cursor: pointer;
+}
+
+
+.close{
+    position: relative;
+    top: 0vw; left: 58vw;
+    margin-bottom: 2rem;
+    font-size: 1vw;
+    outline: none; border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal{
+    z-index: 1;
+    position: absolute;
+    margin-top: 12vw; 
+    margin-left: 18vw;
+    padding: 1vw 4vw;
+    height: 20vw; width: 65vw;
+    font-size: 1.2vw;
+    border-radius: 1vw;
+    background: white;
+    box-shadow: .5vw .5vw 1vw rgba(0, 0, 0, .5)
+}
+.modal:hover{
+    cursor:text;
+}
